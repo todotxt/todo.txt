@@ -44,6 +44,5 @@ Philosophically, the `todo.txt` file format has two goals:
 These two goals are why, for example, lines start with priority and/or dates, so that they are easily sorted by priority or time, and completed items are marked with an `x`, which both sorts at the bottom of an alphabetical list and looks like a filled-in checkbox.
 
 
-
-[Getting Things Done]: http://en.wikipedia.org/wiki/Getting_Things_Done
-[Format Quick Reference Image]: description.svg
+[Getting Things Done]: https://en.wikipedia.org/wiki/Getting_Things_Done
+[Format Quick Reference Image]: /description.png
