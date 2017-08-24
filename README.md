@@ -1,4 +1,5 @@
-# todo.txt format
+# todo.txt format 
+[![Gitter](https://img.shields.io/gitter/room/todotxt/todotxt.svg)](https://gitter.im/todotxt/todotxt)
 
 A complete primer on the whys and hows of todo.txt.
 
