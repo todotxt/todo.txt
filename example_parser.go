@@ -8,24 +8,13 @@ import (
 
 func main() {
 	ast := parsec.NewAST("TODO", 1000)
-	// // chars -> [^:whitespace:]
-	// glyph := parsec.Token(`[[:graph:]]`, "GLYPH")
 
 	tag := ast.OrdChoice("TAG", nil,
 		parsec.Token(`[+][[:graph:]]+`, "PLUSTAG"),
 		parsec.Token(`[@][[:graph:]]+`, "ATTAG"),
 		parsec.Token(`[#][[:graph:]]+`, "HASHTAG"),
 	)
-	// // atTag -> "@" glyph+
-	// atTag := ast.And(one2one, ast.Token(`@`, "at"), ast.Many(many2many, glyph))
 
-	// // plusTag -> "+" glyph+
-	// plusTag := ast.And(one2one, ast.Token(`+`, "at"), ast.Many(many2many, glyph))
-
-	// // hashtag -> "#" glyph+
-	// hastTag := ast.And(one2one, ast.Token(`#`, "at"), ast.Many(many2many, glyph))
-
-	// kvPair -> ([^+@#] glyph*) ":" glyph+
 	kvPair := ast.And("KVPAIR", nil,
 		// we use this long regexp instead of :graph: to omit ':' There's probably a regexpy
 		// way of doing this better
@@ -34,33 +23,20 @@ func main() {
 		parsec.TokenExact(`[A-Za-z0-9!"#$%&'()*+,\-./;<=>?@[\\\]^_{|}~]+`, "VALUE"),
 	)
 
-	// word -> ([^+@#] glyph*) | ([+@#])
 	word := ast.OrdChoice("WORD", nil,
 		parsec.Token(`[^@#+][[:graph:]]*`, "WORD"),
 		parsec.Token(`[@#+]$`, "WORD"),
 	)
 
-	// token -> kvPair | word | hashTag | plusTag | atTag
 	token := ast.OrdChoice("TOKEN", nil, kvPair, word, tag)
 
-	// day -> [0-9]{2}
-	// month -> [0-9]{2}
-	// year -> [0-9]{4}
-	// date -> year "-" month "-" day
-	// createdDate -> date
 	createdDate := parsec.Token(`[0-9]{4}-[0-9]{2}-[0-9]{2}`, "CREATIONDATE")
-	// completeDate -> date
 	completeDate := parsec.Token(`[0-9]{4}-[0-9]{2}-[0-9]{2}`, "COMPLETIONDATE")
 
-	// priority -> "(" [A-Z] ")"
 	priority := parsec.Token(`\([A-Z]\)[[:space:]]+`, "PRIORITY")
 
-	// space -> :whitespace:*
-
-	// completeMArk -> "x"
 	completeMark := parsec.Token(`x[[:space:]]+`, "COMPLETED")
 
-	// TODO -> completeMark? priority? completeDate? createdDate? token+
 	TODO := ast.And("TODO", nil,
 		ast.OrdChoice("PREAMBLE", nil,
 			ast.And("PREAMBLE", nil,
