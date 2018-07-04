@@ -195,7 +195,11 @@ Developers should use the format `key:value` to define additional metadata (e.g.
 Both `key` and `value` must consist of non-whitespace characters, which are not colons. Only one colon separates the `key` and `value`.
 
 
+## Example parser
+An example parser with a formal grammar definition for todo.txt entries written in the Go language is available as [example_parser.go]. You can also [see the example parse trees].
 
 
 [Getting Things Done]: https://en.wikipedia.org/wiki/Getting_Things_Done
 [Format Quick Reference Image]: /description.png
+[example_parser.go]: /example_parser.go
+[see the example parse trees]: /example_parser_output.txt

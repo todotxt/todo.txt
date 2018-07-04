@@ -1,0 +1,298 @@
+[0]: x (A) 2018-07-30 2018-07-31 Some todo item with +ProjectTag @atTag #hashtag and key:value pair
+TODO @ 0
+  PREAMBLE @ 0
+    *COMPLETED: "x "
+    *PRIORITY: "(A) "
+    *COMPLETIONDATE: "2018-07-30"
+    *CREATIONDATE: "2018-07-31"
+  WORDS @ 28
+    *WORD: "Some"
+    *WORD: "todo"
+    *WORD: "item"
+    *WORD: "with"
+    *PLUSTAG: "+ProjectTag"
+    *ATTAG: "@atTag"
+    *HASHTAG: "#hashtag"
+    *WORD: "and"
+    KVPAIR @ 80
+      *KEY: "key"
+      *COLON: ":"
+      *VALUE: "value"
+    *WORD: "pair"
+
+[1]: (A) Thank Mom for the meatballs @phone
+TODO @ 0
+  PREAMBLE @ 0
+    *PRIORITY: "(A) "
+    *missing: ""
+  WORDS @ 4
+    *WORD: "Thank"
+    *WORD: "Mom"
+    *WORD: "for"
+    *WORD: "the"
+    *WORD: "meatballs"
+    *ATTAG: "@phone"
+
+[2]: (B) Schedule Goodwill pickup +GarageSale @phone
+TODO @ 0
+  PREAMBLE @ 0
+    *PRIORITY: "(B) "
+    *missing: ""
+  WORDS @ 4
+    *WORD: "Schedule"
+    *WORD: "Goodwill"
+    *WORD: "pickup"
+    *PLUSTAG: "+GarageSale"
+    *ATTAG: "@phone"
+
+[3]: Post signs around the neighborhood +GarageSale
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "Post"
+    *WORD: "signs"
+    *WORD: "around"
+    *WORD: "the"
+    *WORD: "neighborhood"
+    *PLUSTAG: "+GarageSale"
+
+[4]: @GroceryStore Eskimo pies
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *ATTAG: "@GroceryStore"
+    *WORD: "Eskimo"
+    *WORD: "pies"
+
+[5]: (A) Thank Mom for the meatballs @phone
+TODO @ 0
+  PREAMBLE @ 0
+    *PRIORITY: "(A) "
+    *missing: ""
+  WORDS @ 4
+    *WORD: "Thank"
+    *WORD: "Mom"
+    *WORD: "for"
+    *WORD: "the"
+    *WORD: "meatballs"
+    *ATTAG: "@phone"
+
+[6]: (B) Schedule Goodwill pickup +GarageSale @phone
+TODO @ 0
+  PREAMBLE @ 0
+    *PRIORITY: "(B) "
+    *missing: ""
+  WORDS @ 4
+    *WORD: "Schedule"
+    *WORD: "Goodwill"
+    *WORD: "pickup"
+    *PLUSTAG: "+GarageSale"
+    *ATTAG: "@phone"
+
+[7]: (B) Schedule Goodwill pickup +GarageSale @phone
+TODO @ 0
+  PREAMBLE @ 0
+    *PRIORITY: "(B) "
+    *missing: ""
+  WORDS @ 4
+    *WORD: "Schedule"
+    *WORD: "Goodwill"
+    *WORD: "pickup"
+    *PLUSTAG: "+GarageSale"
+    *ATTAG: "@phone"
+
+[8]: Post signs around the neighborhood +GarageSale
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "Post"
+    *WORD: "signs"
+    *WORD: "around"
+    *WORD: "the"
+    *WORD: "neighborhood"
+    *PLUSTAG: "+GarageSale"
+
+[9]: Really gotta call Mom (A) @phone @someday
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "Really"
+    *WORD: "gotta"
+    *WORD: "call"
+    *WORD: "Mom"
+    *WORD: "(A)"
+    *ATTAG: "@phone"
+    *ATTAG: "@someday"
+
+[10]: (b) Get back to the boss
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "(b)"
+    *WORD: "Get"
+    *WORD: "back"
+    *WORD: "to"
+    *WORD: "the"
+    *WORD: "boss"
+
+[11]: (B)->Submit TPS report
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "(B)->Submit"
+    *WORD: "TPS"
+    *WORD: "report"
+
+[12]: 2011-03-02 Document +TodoTxt task format
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *CREATIONDATE: "2011-03-02"
+  WORDS @ 11
+    *WORD: "Document"
+    *PLUSTAG: "+TodoTxt"
+    *WORD: "task"
+    *WORD: "format"
+
+[13]: (A) 2011-03-02 Call Mom
+TODO @ 0
+  PREAMBLE @ 0
+    *PRIORITY: "(A) "
+    *CREATIONDATE: "2011-03-02"
+  WORDS @ 15
+    *WORD: "Call"
+    *WORD: "Mom"
+
+[14]: (A) Call Mom 2011-03-02
+TODO @ 0
+  PREAMBLE @ 0
+    *PRIORITY: "(A) "
+    *missing: ""
+  WORDS @ 4
+    *WORD: "Call"
+    *WORD: "Mom"
+    *WORD: "2011-03-02"
+
+[15]: (A) Call Mom +Family +PeaceLoveAndHappiness @iphone @phone
+TODO @ 0
+  PREAMBLE @ 0
+    *PRIORITY: "(A) "
+    *missing: ""
+  WORDS @ 4
+    *WORD: "Call"
+    *WORD: "Mom"
+    *PLUSTAG: "+Family"
+    *PLUSTAG: "+PeaceLoveAndHappiness"
+    *ATTAG: "@iphone"
+    *ATTAG: "@phone"
+
+[16]: Email SoAndSo at soandso@example.com
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "Email"
+    *WORD: "SoAndSo"
+    *WORD: "at"
+    *WORD: "soandso@example.com"
+
+[17]: Learn how to add 2+2
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "Learn"
+    *WORD: "how"
+    *WORD: "to"
+    *WORD: "add"
+    *WORD: "2+2"
+
+[18]: x 2011-03-03 Call Mom
+TODO @ 0
+  PREAMBLE @ 0
+    *COMPLETED: "x "
+    *missing: ""
+    *COMPLETIONDATE: "2011-03-03"
+    *missing: ""
+  WORDS @ 13
+    *WORD: "Call"
+    *WORD: "Mom"
+
+[19]: xylophone lesson
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "xylophone"
+    *WORD: "lesson"
+
+[20]: X 2012-01-01 Make resolutions
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "X"
+    *WORD: "2012-01-01"
+    *WORD: "Make"
+    *WORD: "resolutions"
+
+[21]: (A) x Find ticket prices
+TODO @ 0
+  PREAMBLE @ 0
+    *PRIORITY: "(A) "
+    *missing: ""
+  WORDS @ 4
+    *WORD: "x"
+    *WORD: "Find"
+    *WORD: "ticket"
+    *WORD: "prices"
+
+[22]: x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch @github
+TODO @ 0
+  PREAMBLE @ 0
+    *COMPLETED: "x "
+    *missing: ""
+    *COMPLETIONDATE: "2011-03-02"
+    *CREATIONDATE: "2011-03-01"
+  WORDS @ 24
+    *WORD: "Review"
+    *WORD: "Tim's"
+    *WORD: "pull"
+    *WORD: "request"
+    *PLUSTAG: "+TodoTxtTouch"
+    *ATTAG: "@github"
+
+[23]: Some example with key:value and due:2010-01-02
+TODO @ -1
+  PREAMBLE @ -1
+    *missing: ""
+    *missing: ""
+  WORDS @ 0
+    *WORD: "Some"
+    *WORD: "example"
+    *WORD: "with"
+    KVPAIR @ 18
+      *KEY: "key"
+      *COLON: ":"
+      *VALUE: "value"
+    *WORD: "and"
+    KVPAIR @ 32
+      *KEY: "due"
+      *COLON: ":"
+      *VALUE: "2010-01-02"
