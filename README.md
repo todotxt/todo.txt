@@ -182,7 +182,7 @@ x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch @github
 
 If you’ve prepended the creation date to your task, on completion it will appear directly after the completion date. This is so your completed tasks sort by date using standard sort tools. Many Todo.txt clients discard priority on task completion. To preserve it, use the `key:value` format described below (e.g. `pri:A`)
 
-With the completed date (required), if you've used the prepended date (optional), you can calculate how many days it took to complete a task. 
+If you've used the prepended date (optional), you can use that with the completed date (required) to calculate how many days it took to complete a task. 
 
 
 
