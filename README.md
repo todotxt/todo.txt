@@ -184,7 +184,23 @@ If you’ve prepended the creation date to your task, on completion it will appe
 
 With the completed date (required), if you've used the prepended date (optional), you can calculate how many days it took to complete a task. 
 
+## Multi-line tasks
 
+Multi-line tasks must be surrounded by the `---` delimiter.
+
+```
+(A) a single line task
+---
+(B) A task enclosed between lines only consisting of dashes
+is treated as a +multi-line task.
+---
+
+---
+(C) this is another
++multi-line
+task.
+---
+```
 
 ## Additional File Format Definitions
 
