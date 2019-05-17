@@ -127,7 +127,7 @@ This task doesn't have a creation date:
 - A *term* provides additional filtering useful in note-taking and is prefixed by a single period (`.`) followed by any non-whitespace character.
 - A *task* may have zero, one, or more than one *projects* and *contexts* included in it.
 
-For example, this task is part of the `+English` project, belongs to the `@school` contexts, and includes the term `.fret`:
+For example, this task is part of the `+English` project, belongs to the `@school` context, and includes the terms `.benevolence` and `.life`:
 
 ```
 (A) Finish research paper on .benevolence and .life +English @school
