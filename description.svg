@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 632.2 281">
     <style>
+        svg {background-color: #FFF;}
         .st0{font-family:Courier;font-size:12px;}
         .st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
         .st2{font-family:Arial;font-size:10px;}

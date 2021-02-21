@@ -1,4 +1,4 @@
-# todo.txt format 
+# todo.txt format
 [![Gitter](https://img.shields.io/gitter/room/todotxt/todotxt.svg)](https://gitter.im/todotxt/todotxt)
 
 A complete primer on the whys and hows of todo.txt.
@@ -29,7 +29,7 @@ In order to move along a project like "Cleaning out the garage," my task list sh
 
 
 ### Context
-[Getting Things Done] author David Allen suggests splitting up your task lists by context - ie, the place and situation where you'll work on the job. Messages that you need to send go in the `@email` context; calls to be made `@phone`, household projects `@home`.
+[Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done) author David Allen suggests splitting up your task lists by context - ie, the place and situation where you'll work on the job. Messages that you need to send go in the `@email` context; calls to be made `@phone`, household projects `@home`.
 
 That way, when you've got a few minutes in the car with your cell phone, you can easily check your `@phone` tasks and make a call or two while you have the opportunity.
 
@@ -39,7 +39,7 @@ This is all possible inside `todo.txt`.
 
 ## `todo.txt` format rules
 
-![Format Quick Reference Image]
+<img src="./description.svg" width="100%" height="500">
 
 Your `todo.txt` is a plain text file. To take advantage of structured task metadata like priority, projects, context, creation, and completion date, there are a few simple but flexible file format rules.
 
@@ -60,7 +60,7 @@ The beauty of todo.txt is that it's completely unstructured; the fields you can 
 A todo.txt file might look like the following:
 
 ```
-(A) Thank Mom for the meatballs @phone 
+(A) Thank Mom for the meatballs @phone
 (B) Schedule Goodwill pickup +GarageSale @phone
 Post signs around the neighborhood +GarageSale
 @GroceryStore Eskimo pies
@@ -69,7 +69,7 @@ Post signs around the neighborhood +GarageSale
 A search and filter for the `@phone` contextual items would output:
 
 ```
-(A) Thank Mom for the meatballs @phone 
+(A) Thank Mom for the meatballs @phone
 (B) Schedule Goodwill pickup +GarageSale @phone
 ```
 
@@ -82,7 +82,7 @@ Post signs around the neighborhood +GarageSale
 
 There are three formatting rules for current todo's.
 
-### Rule 1: If priority exists, it ALWAYS appears first. 
+### Rule 1: If priority exists, it ALWAYS appears first.
 
 The priority is an uppercase character from A-Z enclosed in parentheses and followed by a space.
 
@@ -182,7 +182,7 @@ x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch @github
 
 If you’ve prepended the creation date to your task, on completion it will appear directly after the completion date. This is so your completed tasks sort by date using standard sort tools. Many Todo.txt clients discard priority on task completion. To preserve it, use the `key:value` format described below (e.g. `pri:A`)
 
-With the completed date (required), if you've used the prepended date (optional), you can calculate how many days it took to complete a task. 
+With the completed date (required), if you've used the prepended date (optional), you can calculate how many days it took to complete a task.
 
 
 
@@ -194,8 +194,3 @@ Developers should use the format `key:value` to define additional metadata (e.g.
 
 Both `key` and `value` must consist of non-whitespace characters, which are not colons. Only one colon separates the `key` and `value`.
 
-
-
-
-[Getting Things Done]: https://en.wikipedia.org/wiki/Getting_Things_Done
-[Format Quick Reference Image]: /description.png
