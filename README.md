@@ -45,9 +45,9 @@ This is all possible inside `todo.txt`.
 │  │      ┌─────────────── Optional - Completion date 
 │  │      │          ┌──── Optional - Creation date
 │  │      │          │     (must be specified if completion date is)
-│  │      │          │             ┌─── Mandatory - Description
-│  │      │          │             │    Tags (optional) can be placed anywhere within it.
-│  │  ╭───┴───╮  ╭───┴───╮  ╭──────┴───────────────────────────────────────────────╮
+│  │      │          │        ┌─── Mandatory - Description
+│  │      │          │        │    Tags (optional) can be placed anywhere within it.
+│  │  ┌───┴────┐ ┌───┴────┐ ┌─┴────────────────────────────────────────────────────┐
 x (A) 2016-05-20 2016-04-30 measure space for +chapelShelving @chapel due:2016-05-30
                                               └──────┬──────┘ └──┬──┘ └──────┬─────┘       
                                     project tag ─────┘           │           │
