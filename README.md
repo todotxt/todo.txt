@@ -123,7 +123,7 @@ This task doesn't have a creation date:
 
 - A *context* is preceded by a single space and an at-sign (`@`).
 - A *project* is preceded by a single space and a plus-sign (`+`).
-- A *project* or *context* contains any non-whitespace character.
+- A *project* or *context* contains any non-whitespace character and is case sensitive.
 - A *task* may have zero, one, or more than one *projects* and *contexts* included in it.
 
 For example, this task is part of the `+Family` and `+PeaceLoveAndHappiness` projects as well as the `@iphone` and `@phone` contexts:
