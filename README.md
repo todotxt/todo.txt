@@ -194,3 +194,46 @@ Developers should use the format `key:value` to define additional metadata (e.g.
 
 Both `key` and `value` must consist of non-whitespace characters, which are not colons. Only one colon separates the `key` and `value`.
 
+
+## TODO.txt Formal Grammar
+
+The Grammar for a TODO.txt file is provided in [Extended Backus-Naur Form (EBNF)](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form). The grammar below uses the conventions defined in [the W3C specification for EBNF](https://www.w3.org/TR/REC-xml/#sec-notation).
+
+The grammar below assumes that the `digits` and `whitespace` classes have been defined with their obvious definitions. The `printable` class includes all printable characters.
+
+```EBNF
+
+context ::= "@" printable+ ;
+project ::= "+" printable+ ;
+hashTag ::= "#" printable+ ;
+kvpair ::= ( [^@+#:] printable* ) ":" printable+ ;
+word ::= ( [^@+#] printable* ) | "@" | "+" | "#" ;
+
+token ::= context | project | hashTag | kvpair | word ;
+
+day ::= 2 * digits ;
+month ::= 2 * digits ;
+year ::= 4 * digits ;
+date ::= year "-" month "-" day ;
+
+createdDate ::= date ;
+completedDate ::= date ;
+
+priorityClass ::= "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J" |
+           "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T" |
+           "U" | "V" | "W" | "X" | "Y" | "Z" ;
+priority ::= "(" priorityClass ")" ;
+
+space ::= whitespace + ; 
+    
+completedMark ::= "x" ;
+
+todoLine ::= ( completedMark space )? 
+             ( priority space )? 
+             ( ( completedDate space createdDate space ) | ( createdDate space ) )?
+             word+ 
+             whitespace* ;
+
+todoFile ::= whitespace* todoLine* ;
+
+```
