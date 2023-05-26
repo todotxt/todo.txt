@@ -219,9 +219,7 @@ date ::= year "-" month "-" day ;
 createdDate ::= date ;
 completedDate ::= date ;
 
-priorityClass ::= "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J" |
-           "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T" |
-           "U" | "V" | "W" | "X" | "Y" | "Z" ;
+priorityClass ::= [A-Z] ;
 priority ::= "(" priorityClass ")" ;
 
 space ::= whitespace + ; 
