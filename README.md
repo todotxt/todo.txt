@@ -63,7 +63,7 @@ A todo.txt file might look like the following:
 (A) Thank Mom for the meatballs @phone
 (B) Schedule Goodwill pickup +GarageSale @phone
 Post signs around the neighborhood +GarageSale
-@GroceryStore Eskimo pies
+@GroceryStore pies
 ```
 
 A search and filter for the `@phone` contextual items would output:
