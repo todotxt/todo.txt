@@ -151,7 +151,7 @@ Learn how to add 2+2
 Two things indicate that a task has been completed.
 
 
-### Rule 1: A completed task starts with an lowercase x character (`x`).
+### Rule 1: A completed task starts with a lowercase x character (`x`).
 
 If a task starts with an `x` (case-sensitive and lowercase) followed directly by a space, it is marked as complete.
 
