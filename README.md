@@ -119,17 +119,18 @@ This task doesn't have a creation date:
 ```
 
 
-### Rule 3: Contexts and Projects may appear anywhere in the line _after_ priority/prepended date.
+### Rule 3: Contexts, Projects, and Terms may appear anywhere in the line _after_ priority/prepended date.
 
 - A *context* is preceded by a single space and an at-sign (`@`).
 - A *project* is preceded by a single space and a plus-sign (`+`).
 - A *project* or *context* contains any non-whitespace character.
+- A *term* provides additional filtering useful in note-taking and is prefixed by a single period (`.`) followed by any non-whitespace character.
 - A *task* may have zero, one, or more than one *projects* and *contexts* included in it.
 
-For example, this task is part of the `+Family` and `+PeaceLoveAndHappiness` projects as well as the `@iphone` and `@phone` contexts:
+For example, this task is part of the `+English` project, belongs to the `@school` context, and includes the terms `.benevolence` and `.life`:
 
 ```
-(A) Call Mom +Family +PeaceLoveAndHappiness @iphone @phone
+(A) Finish research paper on .benevolence and .life +English @school
 ```
 
 This task has no contexts in it:
@@ -144,6 +145,11 @@ This task has no projects in it:
 Learn how to add 2+2
 ```
 
+This task has no terms in it:
+
+```
+Visit us on the web at example.com
+```
 
 
 ## Complete Tasks: 2 Format Rules
