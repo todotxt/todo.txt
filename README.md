@@ -1,6 +1,8 @@
 # todo.txt format
 [![Gitter](https://img.shields.io/gitter/room/todotxt/todotxt.svg)](https://gitter.im/todotxt/todotxt)
 
+[English](./README.md) | [Korean (한국어)](./README.ko.md)
+
 A complete primer on the whys and hows of todo.txt.
 
 The first and most important rule of todo.txt:

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 632.2 281">
+    <style>
+        .st0{font-family:Courier;font-size:12px;}
+        .st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+        .st2{font-family:Arial;font-size:10px;}
+    </style>
+    <rect width="100%" height="100%" fill="#FFF"/>
+    <text class="st0" transform="translate(4.024 172.96)">
+        x (A) 2016-05-20 2016-04-30 measure space for +chapelShelving @chapel due:2016-05-30
+    </text>
+    <path d="M15.2 159v-6H.5v6m36 0v-6H21.8v6m96.5 0v-6H47.5v6m149.3 0v-6H126v6m483.7.2V153H206v6.1m238.7 22.8v7.2H335V182m274.7-.1v7.2H509V182m-7.5-.1v7.2h-49.1V182" class="st1"/>
+    <text class="st2" transform="rotate(-45 161.175 55.627)">
+        선택사항 — 완료 표시
+    </text>
+    <text class="st2" transform="rotate(-45 171.8 29.976)">
+        선택사항 -- 우선순위 표시
+    </text>
+    <text class="st2" transform="rotate(-45 198.684 -34.92)">
+        선택사항 -- 완료 일자
+    </text>
+    <text transform="rotate(-45 237.935 -129.68)">
+        <tspan x="0" y="0" class="st2">선택사항 - 등록 일자</tspan>
+        <tspan x="0" y="12" class="st2">(완료 일자가 있는 경우 반드시 명시)</tspan>
+    </text>
+    <text transform="rotate(-45 352.18 -405.478)">
+        <tspan x="0" y="0" class="st2">설명; 태그 (선택사항)</tspan>
+        <tspan x="0" y="12" class="st2">여기 어디에나 배치할 수 있습니다</tspan>
+    </text>
+    <text class="st2" transform="rotate(45 -60.77 576.533)">
+        프로젝트 태그
+    </text>
+    <text class="st2" transform="rotate(45 -17.238 681.627)">
+        컨텍스트(맥락) 태그
+    </text>
+    <text class="st2" transform="rotate(45 23.978 781.127)">
+        특수 key/value 태그
+    </text>
+</svg>
