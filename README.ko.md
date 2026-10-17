@@ -1,7 +1,7 @@
 # todo.txt 형식
 [![Gitter](https://img.shields.io/gitter/room/todotxt/todotxt.svg)](https://gitter.im/todotxt/todotxt)
 
-[English](./README.md) | [Korean (한국어)](./README.ko.md)
+[English](./README.md) | [Korean (한국어)](./README.ko.md) | [Russian (Русский)](./README.ru.md)
 
 todo.txt의 이유와 방법에 대한 완벽한 입문서입니다.
 
