@@ -12,15 +12,18 @@
     <text class="st2" transform="rotate(-45 161.175 55.627)">
         Optional — Marks completion
     </text>
-    <text class="st2" transform="rotate(-45 171.8 29.976)">
-        Optional -- Marks priority
+    <text transform="rotate(-45 171.8 29.976)">
+        <tspan x="0" y="0" class="st2">Optional — Marks priority</tspan>
+        <tspan x="0" y="12" class="st2">(unless preceded by "x" completion mark,</tspan>
+        <tspan x="0" y="24" class="st2">then often removed or preserved as pri:A)</tspan>
     </text>
-    <text class="st2" transform="rotate(-45 198.684 -34.92)">
-        Optional -- Completion Date
+    <text transform="rotate(-45 198.684 -34.92)">
+        <tspan x="0" y="0" class="st2">Optional — Completion Date</tspan>
+        <tspan x="0" y="12" class="st2">(recommended when creation date exists</tspan>
+        <tspan x="0" y="24" class="st2">to resolve ambiguity)</tspan>
     </text>
-    <text transform="rotate(-45 237.935 -129.68)">
-        <tspan x="0" y="0" class="st2">Optional -- Creation Date</tspan>
-        <tspan x="0" y="12" class="st2">(must be specified if completion date is)</tspan>
+    <text class="st2" transform="rotate(-45 237.935 -129.68)">
+        Optional — Creation Date
     </text>
     <text transform="rotate(-45 352.18 -405.478)">
         <tspan x="0" y="0" class="st2">Description; tags (optional)</tspan>
