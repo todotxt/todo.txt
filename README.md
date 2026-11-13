@@ -157,13 +157,18 @@ Two things indicate that a task has been completed.
 
 If a task starts with an `x` (case-sensitive and lowercase) followed directly by a space, it is marked as complete.
 
-This is a complete task:
+These are completed tasks:
 
 ```
 x 2011-03-03 Call Mom
+x 2011-03-05 2011-03-03 Call Dad
+x (A) pay water bill
+x pay gas bill pri:A
+x 2011-03-05 2011-03-03 pay electric bill pri:A
+x 2011-03-29 pay taxes # Ambiguity: When was this paid?!
 ```
 
-These are not complete tasks.
+These are not completed tasks:
 
 ```
 xylophone lesson
@@ -174,7 +179,7 @@ X 2012-01-01 Make resolutions
 We use a lowercase x so that completed tasks sort to the bottom of the task list using standard sort tools.
 
 
-### Rule 2: The date of completion appears directly after the x, separated by a space.
+### Rule 2: The date of completion **may** appear directly after the `x`, separated by a space.
 
 For example:
 
@@ -182,9 +187,14 @@ For example:
 x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch @github
 ```
 
-If you’ve prepended the creation date to your task, on completion it will appear directly after the completion date. This is so your completed tasks sort by date using standard sort tools. Many Todo.txt clients discard priority on task completion. To preserve it, use the `key:value` format described below (e.g. `pri:A`)
+If you’ve prepended the creation date to your task, on completion it will appear directly after the completion date. When completed tasks have a completion date immediately after `x`, this allows them to sort by completion date using standard sort tools.
 
-With the completed date (required), if you've used the prepended date (optional), you can calculate how many days it took to complete a task.
+Many Todo.txt clients discard priority on task completion. To preserve it, use the `key:value` format described below (e.g. `pri:A`)
+
+If a completed date _and_ creation date are present you can calculate how
+many days it took to complete a task.
+
+Note: Both completion and creation date are **optional**. As it's impossible to tell if a single date on a completed task is a completion date or a creation date, when completing a task which has a creation date, either the completion date should be added or the creation date should be removed.
 
 
 
