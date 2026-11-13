@@ -187,7 +187,7 @@ For example:
 x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch @github
 ```
 
-If you’ve prepended the creation date to your task, on completion it will appear directly after the completion date. This is so your completed tasks sort by modification date using standard sort tools.
+If you’ve prepended the creation date to your task, on completion it will appear directly after the completion date. When completed tasks have a completion date immediately after `x`, this allows them to sort by completion date using standard sort tools.
 
 Many Todo.txt clients discard priority on task completion. To preserve it, use the `key:value` format described below (e.g. `pri:A`)
 
