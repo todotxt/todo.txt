@@ -1,3 +1,8 @@
+> ⚠️ **Translation Status**:
+> [Pending changes](https://github.com/todotxt/todo.txt/compare/1d90c08...master) <!-- Update the commit ID during translation -->
+> (look at `README.md` and embedded files).
+> [Help keep this translation current](./CONTRIBUTING.md#translations)
+
 # todo.txt 형식
 [![Gitter](https://img.shields.io/gitter/room/todotxt/todotxt.svg)](https://gitter.im/todotxt/todotxt)
 
