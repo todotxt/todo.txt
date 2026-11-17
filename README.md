@@ -179,7 +179,7 @@ X 2012-01-01 Make resolutions
 We use a lowercase x so that completed tasks sort to the bottom of the task list using standard sort tools.
 
 
-### Rule 2: The date of completion **may** appear directly after the `x`, separated by a space.
+### Rule 2: A date of completion **may** appear directly after the `x`, separated by a space.
 
 For example:
 
